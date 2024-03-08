@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Fundamentos de contabilidad y tributaria',
+    descripcionCurso:
+      'El manejo de la contabilidad es la base fundamental para el conocimiento financiero de las organizaciones. Además de dar cumplimiento a las Normas Internacionales de Información Financiera (NIIF), a su vez esta información, se convierte en la materia prima fundamental para la toma de decisiones por parte de los administradores de las compañías.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
@@ -24,35 +15,102 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info-circle',
+        icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Contabilidad',
         desarrolloContenidos: true,
         subMenu: [
           {
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Cuentas contables',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Principios de contabilidad',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Dinámica contable',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Instrumentos financieros',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Documentación',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Normativa',
+            hash: 't_1_6',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Informes',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Estados financieros',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Hojas electrónicas financieras',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tributaria',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Registro único tributario',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Impuestos',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Tasas y contribuciones',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -100,34 +158,103 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'Decreto 1625 de 2016 [Presidencia de la República de Colombia]. Por medio del cual se expide el Decreto Único Reglamentario en materia tributaria. Octubre 11 de 2016.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=83233',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Decreto 410 de 1971. [Presidencia de la República de Colombia] (). Por el cual se expide el Código de Comercio.. Marzo 27 de 1971.',
+      link: 'https://leyes.co/codigo_de_comercio/19.htm',
+    },
+    {
+      referencia:
+        'El contador básico. (s.f.). Relación entre activo, pasivo y patrimonio neto. ',
+      link:
+        'https://sites.google.com/site/elcontadorbasico/home/tipos-de-cuentas/activos/pasivos/activo-pasivo-patrimonio ',
+    },
+    {
+      referencia:
+        '(s.f.). Impuestos nacionales, departamentales y municipales. [Web log post]. Contabilidad de la Financiación.',
+      link:
+        'http://contaduriapublicatercero3841.blogspot.com/2017/06/impuestos-nacionales-departamentales-y.html',
+    },
+    {
+      referencia:
+        'Ley 1819 de 2016. Por medio de la cual se adopta una reforma tributaria estructural, se fortalecen los mecanismos para la lucha contra la evasión y la elusión fiscal, y se dictan otras disposiciones. Diciembre 29 de 2016',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=79140',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Estatuto Tributario',
+      significado:
+        'El Estatuto Tributario se reconoce como la máxima autoridad en impuestos en Colombia, allí se reflejan la gran mayoría de normas relacionadas con el recaudo de tributos en Colombia.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'ICA',
+      significado:
+        'Conocido como Impuesto de Industria y Comercio es una obligación municipal que se genera a partir de la ejecución de labores de industria, comercio o servicios generados en Bogotá o cualquier ciudad del país donde aplique, en las que directa o indirectamente se desarrollan de manera continua o eventual, con o sin establecimiento comercial.',
+    },
+    {
+      termino: 'Persona Natural',
+      significado:
+        'La persona natural es un ser humano que, desde el punto de vista tributario, es un contribuyente en ejercicio de una actividad comercial, profesional o de servicios y contrae obligaciones con el Estado a título personal.',
+    },
+    {
+      termino: 'Persona Jurídica',
+      significado:
+        'Una persona jurídica es una organización o grupo de personas naturales a la que la ley reconoce personalidad independiente y diferenciada de la de cada uno de sus miembros o componentes, capaz de ejercer derechos y contraer obligaciones, y de ser representada judicial y extrajudicialmente.',
+    },
+    {
+      termino: 'Retenciones',
+      significado:
+        'Es una cantidad de dinero que un pagador descuenta del importe total de una factura de compra de servicios profesionales, nóminas de trabajadores y otras operaciones a título de anticipo de impuesto, que la ley exige para las partes.',
+    },
+    {
+      termino: 'RUT',
+      significado:
+        'Quiere decir registro único tributario, y se convierte en el documento de identificación de los contribuyentes',
+    },
+    {
+      termino: 'Tributo',
+      significado:
+        'Corresponden a aportes que realizan los contribuyentes con destino al estado.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema: '1.6 Normativa',
+      referencia:
+        'Decreto 2420 de 2015. [Ministerio de Comercio, Industria y Turismo]. Normas de contabilidad, de información financiera y de aseguramiento de información. Diciembre 9 de 2021',
+      tipo: 'Decreto',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745',
+    },
+    {
+      tema: '1.6 Normativa',
+      referencia:
+        'Actualícese Video. (2021, 13 de septiembre). Nueva reforma tributaria de los colombianos: novedades.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=f2y8vKfyh0Q',
+    },
+    {
+      tema: '1.6 Normativa',
+      referencia:
+        'DIAN Colombia. (2021, 14 de julio). REGISTRO ÚNICO TRIBUTARIO - RUT 1/2 – DIAN.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Ltgyaxh0ga0',
+    },
+    {
+      tema: '1.6 Normativa',
+      referencia:
+        'Correa Sánchez, D . (2019). Impuestos en Colombia. Nacionales y Municipales',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=-p6FCB0p3o0&t=268s',
     },
   ],
   creditos: [
@@ -142,8 +269,7 @@ export default {
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -153,8 +279,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -164,26 +289,22 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -193,27 +314,23 @@ export default {
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
   ],
