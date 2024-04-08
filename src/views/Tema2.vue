@@ -98,7 +98,7 @@
       h2 2.2 Hojas electrónicas financieras
 
     p Una hoja electrónica financiera, básicamente es un recurso importante para las personas naturales o jurídicas, que permite realizar los análisis de información de acuerdo a las necesidades administrativas, en forma de matriz, cuyo objetivo, es organizar datos numéricos y realizar las operaciones con ellos  y si así se considera, realizar monitoreo permanente y actualización de la información, que resulte fundamental para soportar la toma de decisiones en las organizaciones o para los usuarios de la información a nivel general.
-    p.mb-5 Este software financiero, se basa en un sistema de celdas tanto horizontales como verticales, que, al combinarse, se convierten en distintas filas o columnas. Sabiendo ya esto, se invita a revisar el siguiente recurso donde se muestran las diferentes funciones de las hojas electrónicas: 
+    p.mb-5 Este <em>software</em> financiero, se basa en un sistema de celdas tanto horizontales como verticales, que, al combinarse, se convierten en distintas filas o columnas. Sabiendo ya esto, se invita a revisar el siguiente recurso donde se muestran las diferentes funciones de las hojas electrónicas: 
 
     .tarjeta.tarjeta--azul.mb-5(data-aos="fade-right")
       .p-4.p-lg-5
@@ -113,7 +113,7 @@
 
           .row
             .col-lg-7.mb-4.mb-lg-0
-              h4.mb-5 <i>Software contable</i>
+              h4.mb-5 <i>Software</i> contable
               p.mb-0 Siendo esta ayuda lo suficientemente práctica, con el pasar de los años muy a pesar de los avances tecnológicos y la creación de <i>software</i> muy completos y diseñados inclusos a las medidas de las necesidades de las personas naturales y jurídicas, en donde se consideran en detalle los procesos particulares, aun así, este tipo de <i>software</i> no pierden vigencia en las empresas, especialmente porque también se han venido actualizando y complementando, conservando la preferencia de los usuarios.
             .col-lg-5
               figure

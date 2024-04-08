@@ -25,35 +25,35 @@
             figure
               img(src="@/assets/curso/temas/tema3/ico_1.svg", alt='', style="width:120px; display:block; margin:auto 0 ;").mb-3
           .col-md-7
-            p <b>Paso No. 1.</b> Para los contribuyentes obligados a tributar en Colombia, sean estos personas naturales o personas jurídicas, actualmente las normas que rigen en materia tributaria en el orden nacional, se encuentra el estatuto tributario, considerada la biblia en materia de impuestos
+            p Para los contribuyentes obligados a tributar en Colombia, sean estos personas naturales o personas jurídicas, actualmente las normas que rigen en materia tributaria en el orden nacional, se encuentra el estatuto tributario, considerada la biblia en materia de impuestos
 
         .row.justify-content-center.align-items-star(titulo="Paso 2")
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema3/ico_2.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
           .col-md-7
-            p <b>Paso No. 2.</b> El Decreto único reglamentario 1625 de 2016, el cual compila y simplifica las normas de carácter reglamentario que rigen en cada sector de la economía y permite a la vez contar con instrumentos jurídicos únicos, entre otras normas que de manera constante, regulan la materia.
+            p El Decreto único reglamentario 1625 de 2016, el cual compila y simplifica las normas de carácter reglamentario que rigen en cada sector de la economía y permite a la vez contar con instrumentos jurídicos únicos, entre otras normas que de manera constante, regulan la materia.
                   
         .row.justify-content-center.align-items-star(titulo="Paso 3")
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema3/ico_3.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
           .col-md-7
-            p <b>Paso No. 3.</b> En este mismo sentido existen impuestos del orden municipal que para cada uno de ellos existe un estatuto tributario los cuales establecen los tributos en cada caso, y que es responsabilidad de cada contribuyente, documentar sobre los tributos a que se haría responsable si eventualmente decidiera realizar alguna actividad económica en una región especÍfica. 
+            p En este mismo sentido existen impuestos del orden municipal que para cada uno de ellos existe un estatuto tributario los cuales establecen los tributos en cada caso, y que es responsabilidad de cada contribuyente, documentar sobre los tributos a que se haría responsable si eventualmente decidiera realizar alguna actividad económica en una región especÍfica. 
         
         .row.justify-content-center.align-items-star(titulo="Paso 4")
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema3/ico_4.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
           .col-md-7
-            p <b>Paso No. 4.</b> Estas normas surgen de la constitución política, las leyes, las ordenanzas, los decretos, y las demás directrices que dispongan en cuanto a tributos, los encargados de legislar sobre estos aspectos.
+            p Estas normas surgen de la constitución política, las leyes, las ordenanzas, los decretos, y las demás directrices que dispongan en cuanto a tributos, los encargados de legislar sobre estos aspectos.
 
         .row.justify-content-center.align-items-star(titulo="Paso 5")
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema3/ico_5.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
           .col-md-7
-            p <b>Paso No. 5.</b> El sistema tributario en Colombia, tiene como base fundamental que las personas naturales o jurídicas que realicen una actividad de comercio o cualquier otra actividad que esté gravada con cualquier tipo de tributo tanto nacional, departamental o municipal, esta persona responsable, debe liquidar y pagar de manera voluntaria ante la entidad competente los correspondientes impuestos. 
+            p El sistema tributario en Colombia, tiene como base fundamental que las personas naturales o jurídicas que realicen una actividad de comercio o cualquier otra actividad que esté gravada con cualquier tipo de tributo tanto nacional, departamental o municipal, esta persona responsable, debe liquidar y pagar de manera voluntaria ante la entidad competente los correspondientes impuestos. 
                   
         .row.justify-content-center.align-items-star(titulo="Paso 6")
           .col-6.col-lg-2.mb-4.mb-lg-0
@@ -61,7 +61,7 @@
               img(src="@/assets/curso/temas/tema3/ico_6.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
 
           .col-md-7
-            p <b>Paso No. 6.</b> Sin embargo, es claro que si algún contribuyente responsable del impuesto, no cumple con las distintas obligaciones fiscales consagradas en las normas, podrá ser castigado con multas o sanciones que claramente también están consagradas en el Estatuto Tributario y demás normas de la competencia. 
+            p Sin embargo, es claro que si algún contribuyente responsable del impuesto, no cumple con las distintas obligaciones fiscales consagradas en las normas, podrá ser castigado con multas o sanciones que claramente también están consagradas en el Estatuto Tributario y demás normas de la competencia. 
           
         .row.justify-content-center.align-items-star(titulo="Paso 7")
           .col-6.col-lg-2.mb-4.mb-lg-0
@@ -69,7 +69,7 @@
               img(src="@/assets/curso/temas/tema3/ico_7.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
            
           .col-md-7
-            p <b>Paso No. 7.</b> Los responsables de los impuestos en Colombia, pueden ser desde personas naturales, hasta micros, pequeñas o medianas empresas, entidades del régimen especial en renta, y demás personas jurídicas que realicen actividades que den origen a los impuestos.
+            p Los responsables de los impuestos en Colombia, pueden ser desde personas naturales, hasta micros, pequeñas o medianas empresas, entidades del régimen especial en renta, y demás personas jurídicas que realicen actividades que den origen a los impuestos.
 
         .row.justify-content-center.align-items-star(titulo="Paso 8")
           .col-6.col-lg-2.mb-4.mb-lg-0
@@ -77,7 +77,7 @@
               img(src="@/assets/curso/temas/tema3/ico_8.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
 
           .col-md-7
-            p <b>Paso No. 8.</b> Por ello es importante previo a la constitución de alguna sociedad, o emprender cualquier negocio, asesorarse sobre el alcance de los compromisos que se adquieren en el desarrollo de estas actividades de comercio, recordemos que desconocer la norma no excusa la responsabilidad de los declarantes.
+            p Por ello es importante previo a la constitución de alguna sociedad, o emprender cualquier negocio, asesorarse sobre el alcance de los compromisos que se adquieren en el desarrollo de estas actividades de comercio, recordemos que desconocer la norma no excusa la responsabilidad de los declarantes.
 
     p.mb-5 También es importante conocer la trazabilidad de los compromisos estatales, fechas establecidas para declarar, formas de pago, sanciones a las cuales se pueden enfrentar al incumplir estas responsabilidades, alivios tributarios, incentivos o alivios de tipo tributario y demás aspectos que básicamente se compilan en las normatividades ya mencionadas. En Colombia los tributos se clasifican en tres categorías (ver figura 4):
 
@@ -93,7 +93,7 @@
     .row.justify-content-center.align-items-center
       .col-10.col-md-10.col-lg-10(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Figura 5. Clasificación de los Impuestos Colombia</em>
+          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Clasificación de los Impuestos Colombia</em>
         figure
           img.mb-2(src='@/assets/curso/temas/tema3/fig_2.svg', alt='')
 
@@ -107,7 +107,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Figura 6. Función del RUT ante la DIAN</em>
+          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Función del RUT ante la DIAN</em>
         figure
           img.mb-2(src='@/assets/curso/temas/tema3/fig_3.svg', alt='')
 
@@ -258,17 +258,17 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
-          h5 Tabla 1
-          span Tipos de Tributos en Colombia
+          h5 Tabla 3.
+          span <i>Tipos de Tributos en Colombia</i>
     
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade") 
       table
         thead
           tr
             th.th Clases
-            th.th Hecho Generador
-            th.th Tipo de Obligación
-            th.th Contraprestación Directa
+            th.th Hecho generador
+            th.th Tipo de obligación
+            th.th Contraprestación directa
         tbody
           tr
             td.th-1  Impuestos.
@@ -276,12 +276,12 @@
             td.th-1  Absolutamente Obligatorio.
             td.th-1  Inexistente.
           tr
-            td.th-2 Contribuciones
+            td.th-2 Contribuciones.
             td.th-2  Obtención de beneficios producto de inversión estatal.
             td.th-2  Obligatoriedad media.
             td.th-2  Beneficio recibido.
           tr 
-            td.th-1  Tasas
+            td.th-1  Tasas.
             td.th-1  Beneficios por servicios estatales.
             td.th-1  Obligatoriedad baja.
             td.th-1  Servicio prestado.

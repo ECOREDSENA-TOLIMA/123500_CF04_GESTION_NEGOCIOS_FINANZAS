@@ -32,10 +32,6 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Cuentas contables
 
-    p.mb-5 Estos registros se deben realizar en los momentos en que se presenten; es decir, en orden cronológico y siguientes a las regulaciones establecidas por el gobierno nacional, para el caso de Colombia el marco normativo establecido se estipula en el decreto único reglamentario 1625 de 2016 y las Normas Internacionales de Información Financiera. La contabilidad llevada en debida forma permite una herramienta clave en pro de obtener mejores resultados financieros y mejoras en la gestión de los administradores.
-    
-    Separador 
-
     .row.justify-content-center.align-items-center
       .col-lg-12
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -54,12 +50,11 @@
             p.mb-0 <strong>Nombre:</strong> corresponde al nombre asignado a la cuenta contable que se utiliza para cada registro.
           li(data-aos="fade-right") 
             i.fas.fa-folder.ss
-            p.mb-0 <strong>Detalle:</strong> hace referencia a la clase de movimiento que se registra para cada movimiento, este puede ser débito o crédito según cada caso, para el caso de los débitos y se registran al lado izquierdo de la cuenta y principalmente en este se contemplan lo que entra a la organización; por su parte los movimientos créditos se registran al lado derecho de la cuenta y en este se consideran los movimientos de salida de las empresas para cada situación.
+            p.mb-0 <strong>Detalle:</strong> hace referencia a la clase de movimiento que se registra para cada movimiento, este puede ser débito o crédito según cada caso. Para el caso de los débitos, se registran al lado izquierdo de la cuenta y principalmente en este se contemplan lo que entra a la organización; por su parte los movimientos créditos se registran al lado derecho de la cuenta y en este se consideran los movimientos de salida de las empresas para cada situación.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
             p.mb-0 <strong>Saldo:</strong> este corresponde al neto que resulte entre los movimientos débitos y los movimientos créditos del negocio.
  
-   
       .col-lg-5(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/temas/tema1/img-4.svg')
 
@@ -69,7 +64,7 @@
 
       .col-lg-5(data-aos="fade-right") 
 
-          p.mb-0 Cuando se habla de la naturaleza de las cuentas contables, se considera la forma habitual en que se incrementa el saldo de esta según su clase y tipo de cuenta, es decir, las cuentas de naturaleza débito siempre aumentan por la columna izquierda y disminuye por el lado derecho de esta, de tal forma que al neto de estos movimientos finalmente debe preservar un mayor valor por el lado izquierdo. Tales cuentas son los activos, los gastos, los costos (de venta, de producción o de operación) y si se manejaran las cuentas de orden acreedoras en la contabilidad de las empresas. Por su parte, las cuentas de naturaleza crédito, aumentan siempre por la columna derecha y disminuyen por el lado izquierdo, conservando siempre un mayor valor en el costado derecho, en este grupo encontramos, los pasivos, las cuentas de capital o patrimonio y dado el caso las cuentas de orden deudoras
+          p.mb-0 Cuando se habla de la naturaleza de las cuentas contables, se considera la forma habitual en que se incrementa el saldo de esta según su clase y tipo de cuenta, es decir, las cuentas de naturaleza débito siempre aumentan por la columna izquierda y disminuye por el lado derecho de esta, de tal forma que al neto de estos movimientos finalmente debe preservar un mayor valor por el lado izquierdo. Tales cuentas son los activos, los gastos, los costos (de venta, de producción o de operación) y si se manejaran las cuentas de orden acreedoras en la contabilidad de las empresas. Por su parte, las cuentas de naturaleza crédito, aumentan siempre por la columna derecha y disminuyen por el lado izquierdo, conservando siempre un mayor valor en el costado derecho, en este grupo encontramos, los pasivos, las cuentas de capital o patrimonio y dado el caso las cuentas de orden deudoras.
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5
     p.mb-5 Un ejemplo muy sencillo de cuentas de naturaleza debito es el siguiente:
@@ -81,6 +76,10 @@
             i.fas.fa-circle(style="color:#3AE3FE")
             | La empresa “XYZ”, vende mercancías a crédito por valor de $200.000 pesos.
     
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+      h5 Tabla 1. 
+      span Ejemplo de cuentas de naturaleza débito
+
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade") 
       table
         thead
@@ -107,6 +106,10 @@
             i.fas.fa-circle(style="color:#3AE3FE")
             | La empresa “XYZ”, vende mercancías a crédito por valor de $200.000 pesos.
 
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+      h5 Tabla 2. 
+      span Ejemplo de cuentas de naturaleza crédito
+
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade") 
       table
         thead
@@ -124,7 +127,7 @@
             td 200.000
             td 
 
-    p En este ejemplo se puede revisar cómo se comporta la cuenta ingresos por ventas la cual corresponde al estado integral de resultados y es de naturaleza crédito. Se ve como al generarse la venta aumenta por su derecha. 
+    p En este ejemplo se puede revisar cómo se comporta la cuenta ingresos por ventas, la cual corresponde al estado integral de resultados y es de naturaleza crédito. Se ve cómo al generarse la venta aumenta por su derecha. 
     p.mb-5 Estimado aprendiz, se le invita a revisar en el siguiente recurso, la clasificación de las cuentas contables:
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-down")
@@ -170,10 +173,6 @@
           )
           .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
             p.mb-0 Los Principios de Contabilidad Generalmente Aceptados en Colombia (PCGA), corresponden a las instrucciones que se dictan en la materia contable, para cuantificar e informar todo lo relacionado con la información financiera de las personas naturales o jurídicas, obligadas a llevar la contabilidad. En otras palabras, se puede decir que son las leyes o reglas establecidas para que se lleve la contabilidad por parte de las empresas. A continuación, se compila los principios de contabilidad establecidos para Colombia, de conformidad con las Normas Internacionales de Información Financiera (NIIF) (ver figura 2):
-
-    .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
-      h5 Figura 2. 
-      span  Principios de Contabilidad
 
     .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA

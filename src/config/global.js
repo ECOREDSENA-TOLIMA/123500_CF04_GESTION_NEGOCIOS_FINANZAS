@@ -161,9 +161,15 @@ export default {
   referencias: [
     {
       referencia:
+        'A/F. (s.f.). Relación entre Activo, Pasivo y Patrimonio Neto.',
+      link:
+        'https://software-activos.com.mx/blog/relacion-entre-activo-pasivo-y-patrimonio',
+    },
+    {
+      referencia:
         'Decreto 1625 de 2016 [Presidencia de la República de Colombia]. Por medio del cual se expide el Decreto Único Reglamentario en materia tributaria. Octubre 11 de 2016.',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=83233',
+        'https://www.cijuf.org.co/sites/cijuf.org.co/files/normatividad/2016/DECRETO%201625%20DEL%2011%20DE%20OCTUBRE%20DE%202016%20%282%29_1.pdf',
     },
     {
       referencia:
@@ -172,13 +178,7 @@ export default {
     },
     {
       referencia:
-        'El contador básico. (s.f.). Relación entre activo, pasivo y patrimonio neto. ',
-      link:
-        'https://sites.google.com/site/elcontadorbasico/home/tipos-de-cuentas/activos/pasivos/activo-pasivo-patrimonio ',
-    },
-    {
-      referencia:
-        '(s.f.). Impuestos nacionales, departamentales y municipales. [Web log post]. Contabilidad de la Financiación.',
+        'Impuestos nacionales, departamentales y municipales. [Web log post]. Contabilidad de la Financiación.',
       link:
         'http://contaduriapublicatercero3841.blogspot.com/2017/06/impuestos-nacionales-departamentales-y.html',
     },
@@ -230,10 +230,10 @@ export default {
     {
       tema: '1.6 Normativa',
       referencia:
-        'Decreto 2420 de 2015. [Ministerio de Comercio, Industria y Turismo]. Normas de contabilidad, de información financiera y de aseguramiento de información. Diciembre 9 de 2021',
+        'Decreto 2420 de 2015. [Ministerio de Comercio, Industria y Turismo]. Por medio del cual se expide el Decreto Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información y se dictan otras disposiciones.',
       tipo: 'Decreto',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745',
+        'https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/decreto_2420_2015.htm',
     },
     {
       tema: '1.6 Normativa',
@@ -267,9 +267,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Tolima',
         },
       ],
     },
@@ -277,9 +277,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesoría metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Jair Yovanny Castro Morales',
+          cargo: 'Experto temático',
+          centro: 'Centro Agropecuario La Granja - Regional Tolima',
+        },
+        {
+          nombre: 'Gloria Alexandra Orejarena Barrios',
+          cargo: 'Diseño instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesoría metodológica y evaluación instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -287,24 +309,49 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Leyson Fabian Castaño Perez',
+          cargo: 'Soporte organizacional',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Edison Eduardo Mantilla Cuadro',
+          cargo: 'Diseño web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Gustavo Adolfo Marún Suárez',
+          cargo: 'Desarrollo front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Diseño web',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
+        },
+        {
+          nombre: 'Francisco José Vásquez Suárez',
+          cargo: 'Desarrollo Fullstack',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
       ],
     },
@@ -312,24 +359,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Jorge Eduardo Rueda Peña',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validación y vinculación de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
       ],
     },
