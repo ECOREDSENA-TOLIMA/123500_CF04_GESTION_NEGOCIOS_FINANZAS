@@ -16,8 +16,8 @@
           .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
             p.mb-0 Dentro de las compañías, se deben realizar de manera permanente informes tanto internos como externos; al interior de las organizaciones, los informes, son considerados una herramienta base e importante para los administradores, juntas directivas, representantes legales, jefes de área, y empleados, para conocer plenamente todos y cada uno de los procesos de las compañías y de los sectores a los cuales pertenecen, según sea el alcance de cada uno de sus cargos, de tal manera que tanto de manera argumentativa como también basada en cifras, se      puedan sustentar las decisiones que eventualmente se toman por parte de estos funcionarios. 
 
-    p A nivel general, un informe dentro de la organización tiene como propósito, poder transmitir información recopilada y posteriormente analizada por parte del encargado de elaborar dicho documento, según los lineamientos y directrices impartidas.
-    p.mb-5 Por su parte, a nivel externo también existen múltiples informes que, en la práctica empresarial, las organizaciones deben generar de acuerdo con las necesidades o las situaciones que particularmente se vayan presentando en el desarrollo del objeto social de las mismas. 
+    p A nivel general, un informe dentro de la organización tiene como propósito transmitir información recopilada y posteriormente analizada por parte del encargado de elaborar dicho documento, según los lineamientos y directrices impartidas.
+    p.mb-5 Por su parte, a nivel externo también existen múltiples informes que, en la práctica empresarial, las organizaciones deben generar de acuerdo con las necesidades o las situaciones que particularmente se vayan presentando en el desarrollo de su objeto social de las mismas.  
 
     .row.aling.my-5   
       .col-lg-10(data-aos="zoom-in-down")
@@ -40,26 +40,40 @@
           p.mb-0 Los estados financieros o contables son los informes que permiten a los usuarios de la información, obtener las cifras que sustentan la gestión de los administradores de una compañía, con base en ellos los usuarios de la información pueden tomar decisiones, según sea el caso; por ejemplo, las entidades financieras con esta información realizan los análisis pertinentes para otorgar los cupos de créditos a las personas naturales o jurídicas que así lo soliciten. Estos informes habitualmente reflejan la información al cierre contable; es decir, a un año, o también se pueden presentar en los cortes definidos por los administradores para sus correspondientes análisis, en el caso de las juntas directivas, se analiza la información mensualmente. Por medio de esta información, se puede conocer de manera oportuna tanto la rentabilidad, como los niveles de endeudamiento, entre otros indicadores financieros que se pueden analizar con base en los informes suministrados. Esta información se expresa por parte de las empresas y en el siguiente documento, se podrá conocer los principales estados financieros:
     
     .row.align-items-center.aling.my-3
-      .col-lg-6(data-aos="zoom-in-down")
-        .tarjeta.color-custom-6.p-4.mb-5
-          .row.justify-content-center.align-items-center
+      .col-12(data-aos="zoom-in-down")
+        //- .tarjeta.color-secundario.p-4.mb-5
+        //-   .row.justify-content-center.align-items-center
+        //-     .col
+        //-       .row.justify-content-between.align-items-center
+        //-         .col-3.col-sm-2.col-lg-2
+        //-           img.mx-1.mb-3(src="@/assets/curso/temas/tema2/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+        //-         .col.mb-3.mb-sm-0
+        //-           h3.text-white.text-center Estados financieros
+        //-         .col-12.col-sm-4.col-lg-2
+        //-           a.boton.color-custom-7(:href="obtenerLink('downloads/estados_financieros.pdf')" target="_blank")
+        //-             span Descargar
+        //-             .row
+        //-               .col-auto
+        //-                 img.mx-2(src="@/assets/curso/temas/tema2/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/componentes/ico-anexos.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col-3.col-sm-2.col-lg-2
-                  img.mx-1.mb-3(src="@/assets/curso/temas/tema2/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
                 .col.mb-3.mb-sm-0
-                  h3.text-white.text-center Estados financieros
-                .col-12.col-sm-4.col-lg-4
-                  a.boton.color-custom-7(:href="obtenerLink('downloads/estados_financieros.pdf')" target="_blank")
+                  h4.mb-1 Estados financieros
+                  //- p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias  
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo1_Estados_financieros.pdf')" target="_blank")
                     span Descargar
-                    .row
-                      .col-auto
-                        img.mx-2(src="@/assets/curso/temas/tema2/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+                    i.fas.fa-file-download
 
     p.mb-5 En el estado de flujos de efectivos encontramos una clasificación que nos permite diferenciar cuáles han sido las fuentes de ingresos y los usos de los recursos, en cada una de las tres actividades establecidas; a continuación, trataremos cada una de ellas:
 
     .row.aling.my-5 
-      .col-lg-10
+      .col-12
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-up")
           div(titulo="Actividades de operación")
             .row.align-items-star.justify-content-center.p-4
@@ -109,15 +123,15 @@
               p.mb-0 Se utilizan permanentemente en las empresas por parte de los administradores, para medir la gestión organizacional y de negocios en general. Dentro de los múltiples beneficios de esta herramienta, encontramos por ejemplo que, a falta de <i>software</i> contable, podemos llevar la contabilidad de los negocios o empresas, podemos crear bases de datos, se pueden formular y realizar cálculos aritméticos, se pueden generar reportes gerenciales para juntas directivas, graficas, análisis financieros, análisis estadísticos, entre otras virtudes de esta herramienta ofimática.
             .col-lg-5
               figure
-                img(src="@/assets/curso/temas/tema1/img_10.png", style="width: 450px" ,alt='').m-auto
+                img(src="@/assets/curso/temas/tema2/img_10.png", style="width: 450px" ,alt='').m-auto
 
           .row
             .col-lg-7.mb-4.mb-lg-0
               h4.mb-5 <i>Software</i> contable
-              p.mb-0 Siendo esta ayuda lo suficientemente práctica, con el pasar de los años muy a pesar de los avances tecnológicos y la creación de <i>software</i> muy completos y diseñados inclusos a las medidas de las necesidades de las personas naturales y jurídicas, en donde se consideran en detalle los procesos particulares, aun así, este tipo de <i>software</i> no pierden vigencia en las empresas, especialmente porque también se han venido actualizando y complementando, conservando la preferencia de los usuarios.
+              p.mb-0 Siendo esta ayuda lo suficientemente práctica, con el pasar de los años muy a pesar de los avances tecnológicos y la creación de <i>software</i> muy completos y diseñados inclusos a la medidas de las necesidades de las personas naturales y jurídicas, en donde se consideran en detalle los procesos particulares, aun así, este tipo de <i>software</i> no pierden vigencia en las empresas, especialmente porque también se han venido actualizando y complementando, conservando la preferencia de los usuarios.
             .col-lg-5
               figure
-                img(src="@/assets/curso/temas/tema1/img_11.png", style="width: 450px" ,alt='').m-auto
+                img(src="@/assets/curso/temas/tema2/img_11.png", style="width: 450px" ,alt='').m-auto
 
           .row
             .col-lg-7.mb-4.mb-lg-0
@@ -125,7 +139,7 @@
               p.mb-0 En conclusión, Microsoft Excel, es la hoja de cálculo más utilizada a nivel mundial por parte de las empresas y en esta se identifican las siguientes partes más conocidas.
             .col-lg-5
               figure
-                img(src="@/assets/curso/temas/tema1/img_12.png", style="width: 450px" ,alt='').m-auto
+                img(src="@/assets/curso/temas/tema2/img_12.png", style="width: 450px" ,alt='').m-auto
 
           .row
             h4.mb-5 Funciones particulares de Excel

@@ -2,9 +2,19 @@ export default {
   global: {
     componenteFormativo: 'Fundamentos de contabilidad y tributaria',
     descripcionCurso:
-      'El manejo de la contabilidad es la base fundamental para el conocimiento financiero de las organizaciones. Además de dar cumplimiento a las Normas Internacionales de Información Financiera (NIIF), a su vez esta información, se convierte en la materia prima fundamental para la toma de decisiones por parte de los administradores de las compañías.',
+      'El manejo de la contabilidad es la base fundamental para el conocimiento financiero de las organizaciones. Además de dar cumplimiento a las Normas Internacionales de Información Financiera NIIF, a su vez esta información, se convierte en la materia prima fundamental para la toma de decisiones por parte de los administradores de las compañías.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
@@ -349,7 +359,7 @@ export default {
           centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
         {
-          nombre: 'Francisco José Vásquez Suárez',
+          nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollo Fullstack',
           centro: 'Centro de Comercio y Servicios Regional Tolima',
         },

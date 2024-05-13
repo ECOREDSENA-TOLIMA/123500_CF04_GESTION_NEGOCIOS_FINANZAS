@@ -2,13 +2,15 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 25%
+    right: 28%
+    width: 45%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 15%
+    right: 15%
+    width: 80%
 
 
 @keyframes float1
@@ -123,40 +125,40 @@
     background-size: cover
     width: 350px
 
-.slyder-a__btn--sigt, .slyder-a__btn--atrs 
-  width: 50px
-  height: 50px
-  background-color: #FFE2AF
-  border-radius: 50%
-  background-repeat: no-repeat
-  background-size: 16px 24px
-  background-position: center
-  border: 1px solid #D8ECFF
-  top: 52%
-  z-index: 10000
-  opacity: 0.7
-  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
-  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
-  cursor: pointer
+// .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+//   width: 50px
+//   height: 50px
+//   background-color: #FFE2AF
+//   border-radius: 50%
+//   background-repeat: no-repeat
+//   background-size: 16px 24px
+//   background-position: center
+//   border: 1px solid #D8ECFF
+//   top: 52%
+//   z-index: 10000
+//   opacity: 0.7
+//   box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+//   transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+//   cursor: pointer
 
-.slyder-a__btn--sigt, .slyder-a__btn--atrs 
-  width: 50px
-  height: 50px
-  background-color: #F4F4F5
-  border-radius: 50%
-  background-repeat: no-repeat
-  background-size: 16px 24px
-  background-position: center
-  border: 1px solid #D8ECFF
-  top: 52%
-  z-index: 10000
-  opacity: 0.7
-  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
-  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
-  cursor: pointer
+// .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+//   width: 50px
+//   height: 50px
+//   background-color: #F4F4F5
+//   border-radius: 50%
+//   background-repeat: no-repeat
+//   background-size: 16px 24px
+//   background-position: center
+//   border: 1px solid #D8ECFF
+//   top: 52%
+//   z-index: 10000
+//   opacity: 0.7
+//   box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+//   transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+//   cursor: pointer
 
-.slyder-a__bullets__item--active
-  background-color: #1B3F5E !important
+// .slyder-a__bullets__item--active
+//   background-color: #1B3F5E !important
 
 .slyder-a__bullets__item
   background-color: #A1BACE
@@ -287,17 +289,17 @@
   color: $color-primario
 
 .acordion
-  .tarjeta--gris
-    background-color: #E1EFE3
+  .tarjeta.tarjeta--gris
+    background-color: $color-terciario
     &.acordion__activo
-      background-color: #FEF5E5
+      background-color: $color-adicional-1
     
 .acordion__accion__btn--a 
   background-color: #FCC15A
   box-shadow: 0px 3px 5px 0px rgba(41, 45, 66, 0.3)
 
 .color-custom-5
-	background-color:  #EAEFF3
+	background-color:  #DBE5F3
 	&::before
 		background-color: #03386E
 
@@ -396,3 +398,49 @@
   background-color: #F6F6F6
 .th-2
   background-color: #FFF
+
+.titulo-herramientas 
+  background-image: url("../assets/curso/temas/ico-title.svg")
+  background-size: inherit
+  background-repeat: no-repeat 
+  padding-left: 2em
+  color: $color-primario
+  border-bottom: 0.15em solid $color-secundario
+  
+.tabs-c__tab
+  background-color: $color-terciario
+.tabs-c__tab.tabs-c__tab--active
+  background-color: $white !important
+
+.slyder-a__bullets__item--active
+  background-color: $color-acento-botones !important
+  border-color: $color-acento-botones
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: $color-secundario
+  opacity: 1
+  
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  // background-image: url('../assets/componentes/arrow2.svg')
+  background-color: $color-acento-botones
+  opacity: 1
+
+  
+.linea-tiempo-c__header__item__dot,
+.linea-tiempo-c__header__item__dot,
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot,
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  background-color: $white
+  border-color: $color-acento-botones
+
+.linea-tiempo-c__header__item__line-container:before,
+.linea-tiempo-c__header__item__line-container:after,
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container:before,
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:before,
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:after,
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after
+  background-color: $color-acento-botones
+
+.linea-tiempo-c__header__btn--right:hover,.linea-tiempo-c__header__btn--left:hover
+  border-color: $color-acento-botones

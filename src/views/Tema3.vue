@@ -32,7 +32,7 @@
             figure
               img(src="@/assets/curso/temas/tema3/ico_2.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
           .col-md-7
-            p El Decreto único reglamentario 1625 de 2016, el cual compila y simplifica las normas de carácter reglamentario que rigen en cada sector de la economía y permite a la vez contar con instrumentos jurídicos únicos, entre otras normas que de manera constante, regulan la materia.
+            p El Decreto único reglamentario 1625 de 2016, el cual compila y simplifica las normas de carácter reglamentario que rigen en cada sector de la economía y permite a la vez contar con instrumentos jurídicos únicos, entre otras normas, que de manera constante, regulan la materia.
                   
         .row.justify-content-center.align-items-star(titulo="Paso 3")
           .col-6.col-lg-2.mb-4.mb-lg-0
@@ -79,23 +79,31 @@
           .col-md-7
             p Por ello es importante previo a la constitución de alguna sociedad, o emprender cualquier negocio, asesorarse sobre el alcance de los compromisos que se adquieren en el desarrollo de estas actividades de comercio, recordemos que desconocer la norma no excusa la responsabilidad de los declarantes.
 
-    p.mb-5 También es importante conocer la trazabilidad de los compromisos estatales, fechas establecidas para declarar, formas de pago, sanciones a las cuales se pueden enfrentar al incumplir estas responsabilidades, alivios tributarios, incentivos o alivios de tipo tributario y demás aspectos que básicamente se compilan en las normatividades ya mencionadas. En Colombia los tributos se clasifican en tres categorías (ver figura 4):
+    p.mb-5 También es importante conocer la trazabilidad de los compromisos estatales, fechas establecidas para declarar, formas de pago, sanciones a las cuales se pueden enfrentar al incumplir estas responsabilidades, alivios tributarios, incentivos o alivios de tipo tributario y demás aspectos que básicamente se compilan en las normatividades ya mencionadas. En Colombia los tributos se clasifican en tres categorías, a continuación, se presenta la figura 3, que clasifica los impuestos:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-          p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Clasificación de Tributos en Colombia</em>
+          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Clasificación de Tributos en Colombia</em>
         figure
-          img.mb-2(src='@/assets/curso/temas/tema3/fig_1.svg', alt='')
+          img.mb-2(src='@/assets/curso/temas/tema3/fig_1.svg', alt='Esquema que representa cómo funciona el proceso de tributos en Colombia, en el cual hacen presencia los impuestos, las tasas y las contribuciones.')
 
-    p.mb-5 En cuanto a los impuestos, corresponden a recursos que pagan las personas particulares al Estado y por los cuales este contribuyente no recibe ninguna contraprestación expresa (directa). El principal objeto de los impuestos es cubrir los compromisos públicos de inversión, entre otros destinos que se establezcan en el presupuesto general de la nación. Como ejemplos de impuestos se encuentran el impuesto sobre la renta y complementario, el impuesto al valor agregado (IVA), el impuesto predial, el gravamen a los movimientos financieros también conocido como 4 x 1000, entre otros más tanto del orden nacional, como también descentralizados. Ahora bien, estos impuestos se clasifican a su vez en directos e indirectos. A continuación, se detallan las diferencias entre estos (ver figura 5):
+    p.mb-5 En cuanto a los impuestos, corresponden a recursos que pagan las personas particulares al Estado y por los cuales este contribuyente no recibe ninguna contraprestación expresa (directa). El principal objeto de los impuestos es cubrir los compromisos públicos de inversión, entre otros destinos que se establezcan en el presupuesto general de la nación. Como ejemplos de impuestos se encuentran el impuesto sobre la renta y complementario, el impuesto al valor agregado (IVA), el impuesto predial, el gravamen a los movimientos financieros también conocido como 4 x 1000, entre otros más tanto del orden nacional, como también descentralizados. Ahora bien, estos impuestos se clasifican a su vez en directos e indirectos. A continuación, se detallan las diferencias entre estos, a continuación, se presenta la figura 4 que explica el proceso:
 
-    .row.justify-content-center.align-items-center
-      .col-10.col-md-10.col-lg-10(data-aos="fade-right")
-        .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Clasificación de los Impuestos Colombia</em>
+    //- .row.justify-content-center.align-items-center
+    //-   .col-10.col-md-10.col-lg-10(data-aos="fade-right")
+    //-     .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
+    //-       p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Clasificación de los Impuestos Colombia</em>
+    //-     figure
+    //-       img.mb-2(src='@/assets/curso/temas/tema3/fig_2.svg', alt='Esquema que explica el proceso de clasificación de los impuestos en Colombia, el cual está compuesto por actores directos e indirectos, con unas especificaciones cada uno.')
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Clasificación de los Impuestos Colombia</i>
         figure
-          img.mb-2(src='@/assets/curso/temas/tema3/fig_2.svg', alt='')
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig-5a.svg', alt='Esquema que explica el proceso de clasificación de los impuestos en Colombia, el cual está compuesto por actores directos e indirectos, con unas especificaciones cada uno.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig-5b.svg', alt='Esquema que explica el proceso de clasificación de los impuestos en Colombia, el cual está compuesto por actores directos e indirectos, con unas especificaciones cada uno.') 
 
     Separador 
 
@@ -104,12 +112,14 @@
 
     p.mb-5 Las siglas RUT significan Registro Único Tributario y es el mecanismo utilizado por la Administración de Impuestos y Aduanas Nacionales DIAN, para reconocer, identificar y clasificar las condiciones tributarias particulares de cada persona natural o jurídica y entidades que tengan la calidad de contribuyentes o declarantes de los distintos impuestos nacionales, departamentales y municipales, los responsables y no responsables de IVA, los agentes de retención en la fuente a título de renta, de IVA o de ICA      y todas las demás responsabilidades que en materia tributaria existan y que directamente dan origen a la inscripción en este Registro ante la DIAN.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-md-10.col-lg-10(data-aos="fade-right")
-        .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Función del RUT ante la DIAN</em>
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Función del RUT ante la DIAN</i>
         figure
-          img.mb-2(src='@/assets/curso/temas/tema3/fig_3.svg', alt='')
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig-6a.svg', alt='Esquema que relaciona las funciones presentes en el RUT, explicando qués es, para qué sirve y qué procesos se llevan a cabo ante la DIAN.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig-6b.svg', alt='Esquema que relaciona las funciones presentes en el RUT, explicando qués es, para qué sirve y qué procesos se llevan a cabo ante la DIAN.') 
+
 
     p.mb-5 El artículo 555-2 del Estatuto Tributario en su PARÁGRAFO 2o. dice: “La inscripción en el Registro Único Tributario, RUT, deberá cumplirse en forma previa al inicio de la actividad económica ante las oficinas competentes de la DIAN, de las cámaras de comercio o de las demás entidades que sean facultadas para el efecto”. A continuación, se relacionan quiénes están obligados a realizar este trámite:
 
@@ -117,7 +127,7 @@
       .video
         <iframe width="560" height="315" src="https://www.youtube.com/embed/2zWM4v9s6DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-    p.mb-5 Finalmente, si se va a realizar el trámite de manera presencial ante la DIAN, debe llevar la cédula de ciudadanía en original con su respectiva fotocopia ampliada al 150%, allí de manera permanente y de acuerdo a las necesidades, se debe actualizar la información cuando la ocasión lo amerite, también se debe mencionar la actividad de comercio a la cual se dedica la persona natural o jurídica, y al final se le hace entrega del RUT, el cual se recomienda exhibir en el domicilio en donde se desarrolla la actividad comercial. Se debe recordar que este trámite no tiene costo alguno.
+    p.mb-5 Finalmente, si se va a realizar el trámite de manera presencial ante la DIAN, debe llevar la cédula de ciudadanía en original con su respectiva fotocopia ampliada al 150 %, allí de manera permanente y de acuerdo a las necesidades, se debe actualizar la información cuando la ocasión lo amerite, también se debe mencionar la actividad de comercio a la cual se dedica la persona natural o jurídica, y al final se le hace entrega del RUT, el cual se recomienda exhibir en el domicilio en donde se desarrolla la actividad comercial. Se debe recordar que este trámite no tiene costo alguno.
 
     Separador 
 
@@ -126,20 +136,24 @@
     
     p.mb-5 Partiendo de la base que ya se tiene clara del concepto de impuesto, a continuación, se realizará una breve descripción de los impuestos más frecuentes y la tarifa de los principales tipos de impuestos nacionales y locales en Colombia:
 
-    .row.mb-3.ps-2(data-aos="zoom-in-down")
-      .h4.mb-0.mx-3 Impuestos nacionales
-      .col-lg-4.bg-color-1.px-4.py-3
+    //- .row.mb-3.ps-2(data-aos="zoom-in-down")
+    //-   .h4.mb-0.mx-3 Impuestos nacionales
+    //-   .col-lg-4.bg-color-1.px-4.py-3
+
+      
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Impuestos nacionales
     
-    p.mb-5 Este grupo lo comprenden los impuestos cuyo recaudo está en cabeza de la entidad que designe el gobierno nacional. En Colombia la tarifa general del impuesto al valor agregado es del 19%, según lo consagra el artículo 468 del estatuto tributario, que fue modificado por la ley 1819 de 2016. Sin embargo, el Estatuto Tributario, contempla tarifas preferenciales del 5% y del 0%, consideradas excepciones a la regla. En el siguiente recurso, se podrá encontrar los diferentes tipos de impuestos nacionales: 
+    p.mb-5 Este grupo lo comprenden los impuestos cuyo recaudo está en cabeza de la entidad que designe el gobierno nacional. En Colombia la tarifa general del impuesto al valor agregado es del 19 %, según lo consagra el artículo 468 del estatuto tributario, que fue modificado por la ley 1819 de 2016. Sin embargo, el Estatuto Tributario, contempla tarifas preferenciales del 5 % y del 0 %, consideradas excepciones a la regla. En el siguiente recurso, se podrá encontrar los diferentes tipos de impuestos nacionales:
 
     .row.aling.mb-3
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-up")
           div(titulo="Renta")
             .row.align-items-star.justify-content-center.p-4
-              .col-lg-4
+              .col-12
                 p.mb-3 Básicamente este impuesto grava las utilidades de las actividades ordinarias realizadas por el contribuyente según el tipo.
-              .col-lg-8  
+              .col-12 
                 .tabla-a.color-acento-contenido.mb-5 
                   table
                     thead
@@ -148,7 +162,7 @@
                         th.th Persona Natural
                     tbody
                       tr
-                        td.th-1  Para las personas jurídicas la tarifa para el año 2022 será del 35%.
+                        td.th-1  Para las personas jurídicas la tarifa para el año 2022 será del 35 %.
                         td.th-1  Para el caso de las personas naturales la tarifa es progresiva, es decir, que entre más alta la renta líquida gravable del contribuyente, mayor será el impuesto a cargo, y viceversa.
                       tr 
                         td.th-2 Sin embargo se debe tener en cuenta que la tarifa puede cambiar año a año de conformidad con lo que se puede regular por parte del estado (reformas tributarias).
@@ -160,56 +174,55 @@
                 
           div(titulo=" Variación tarifa de impuesto de renta personas jurídicas")
             .row.align-items-star.justify-content-center.p-4
-              .col-lg-6
-                img.align(src='@/assets/curso/temas/tema3/fig_4.svg',  alt='', style="width:420px; display:block; margin:auto 0 ;")
+              .col-lg-10.col-12
+                img.align(src='@/assets/curso/temas/tema3/fig_4.svg',  alt='')
 
           div(titulo="Impuestos a los dividendos")
             .row.align-items-star.justify-content-center.p-4
-              .col-lg-4
-                p.mb-3 Este impuesto grava las utilidades que se perciben por parte de los inversionistas de la sociedad a una tarifa del 10%, después de las 300 UVT (Unidad de Valor Tributario).
-              .col-lg-8
+              .col-12
+                p.mb-3 Este impuesto grava las utilidades que se perciben por parte de los inversionistas de la sociedad a una tarifa del 10 %, después de las 300 UVT (Unidad de Valor Tributario).
+              .col-12.col-lg-10
                 img(src='@/assets/curso/temas/tema3/fig_5.svg')
 
           div(titulo="Impuestos a las Ganancias Ocasionales")
             .row.align-items-star.justify-content-center.p-4
-              .col-lg-5
+              .col-12
                 p.mb-3 Corresponden a las ganancias provenientes de actividades no contempladas en las operaciones ordinarias de las empresas.
                 
                 p.mb-3 Es decir, ingresos que resulten ocasionalmente más no de manera constante tanto para las personas naturales como para las personas jurídicas. Las tarifas son del 10 % y del 20 % según los siguientes criterios:
 
-              .col-lg-7
+              .col-12.col-lg-10
                 img(src='@/assets/curso/temas/tema3/fig_9.svg')
 
           div(titulo="Gravamen a los Movimientos Financieros")
             .row.align-items-star.justify-content-center.p-4
-              .col-lg-4
+              .col-12
                 p.mb-3 Este impuesto grava las transacciones realizadas en el sector financiero, con origen en el retiro de dineros de cuentas corrientes, de ahorros y cheques de gerencia. La tarifa que actualmente se tiene estipulada para este impuesto es del 4 X 1000 y la base es el total de los movimientos que se realicen, la norma permite en algunos casos específicos, generar una parte exenta de los montos retirados.
-              .col-lg-8
-                img(src='@/assets/curso/temas/tema3/fig_6.svg')
+              .col-12
+                img(src='@/assets/curso/temas/tema3/fig_6.png')
 
           div(titulo="Impuesto al Valor Agregado (IVA)")
             .row.align-items-star.justify-content-center.p-4
-              .col-lg-4
+              .col-12
                 p.mb-3 Recordemos que es un impuesto indirecto debido a que se paga implícitamente en la compra de productos o servicios gravados. Encontramos diversas tarifas, de la siguiente manera:
-              .col-lg-8
+              .col-lg-10.col-12
                 img(src='@/assets/curso/temas/tema3/fig_7.svg')
 
-    .row.mb-5.ps-2(data-aos="zoom-in-down")
-      .h4.mb-0.mx-3 Impuestos locales
-      .col-lg-4.bg-color-1.px-4.py-3
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Impuestos locales
 
     p.mb-5 Este grupo lo comprenden los impuestos cuyo recaudo está en cabeza de las entidades descentralizadas, especialmente los municipios, encontrando:
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-custom-8.p-4(data-aos="fade-right") 
+      .col-md.tarjeta.color-secundario.p-4(data-aos="fade-right") 
         .row.justify-content-center.p-5.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/ico_9.svg', alt="", style="width:150px; display:block; margin:0 auto;")    
-          .h2.text-center.text-white.mt-5 Impuestos de Industria y Comercio (ICA)
+          .h2.text-center.text-white.mt-5 Impuestos de Industria y Comercio ICA
           p.text-center.text-white Este impuesto grava la totalidad de las actividades industriales, comerciales o de servicios que realiza un contribuyente, incluso sin tener establecimiento de comercio, y que cada municipio o distrito define como gravado o no, las tarifas más comunes van desde el 1 x 100 hasta del 10 x 1000 y la base gravable, la constituyen el total de los ingresos de la persona natural o jurídica.
 
-      .col-md.tarjeta.color-custom-9.p-4(data-aos="fade-left")
+      .col-md.tarjeta.color-primario.p-4(data-aos="fade-left")
         .row.justify-content-center.p-5.mb-3
           .col-6
             figure
@@ -253,13 +266,13 @@
           .col-12.col-md-5.mb-3.mb-md-0
             img(src="@/assets/curso/temas/tema3/img_5.png").m-auto
 
-    p.mb-5 Al analizar los tres tipos de tributos que se han estudiado en este componente, se pueden  identificar algunas diferencias en aspectos como si es obligatorio o no el tributo, el hecho que los origina y si a cambio de cancelar los valores, los aportantes o contribuyentes reciben algo a cambio. En la siguiente tabla 1 se explican cada una de estas particularidades:
+    p.mb-5 Al analizar los tres tipos de tributos que se han estudiado en este componente, se pueden  identificar algunas diferencias en aspectos como si es obligatorio o no el tributo, el hecho que los origina y si a cambio de cancelar los valores, los aportantes o contribuyentes reciben algo a cambio. En la siguiente tabla se explican cada una de estas particularidades:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
           h5 Tabla 3.
-          span <i>Tipos de Tributos en Colombia</i>
+          em Tipos de tributos en Colombia
     
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade") 
       table

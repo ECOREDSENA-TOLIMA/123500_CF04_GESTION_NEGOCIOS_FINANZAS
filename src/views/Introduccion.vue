@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-5 Para los emprendedores de la micro, pequeña y mediana empresa, como para todas las personas jurídicas creadas en Colombia, indistintamente del objeto social que desarrollen, como también las personas naturales, resulta indispensable tener conocimientos relacionados tanto con la ciencia contable, como con los aspectos tributarios en cada sector de la economía colombiana en que se desempeñe. Se debe ver un video que específica estos temas dando una introducción de lo que será importante tratar como temática:
+    p.mb-5 Para los emprendedores de la micro, pequeña y mediana empresa, como para todas las personas jurídicas creadas en Colombia, indistintamente del objeto social que desarrollen, como también las personas naturales, resulta indispensable tener conocimientos relacionados tanto con la ciencia contable, como con los aspectos tributarios en cada sector de la economía colombiana en que se desempeñe. A continuación, se presenta el video que específica los contenidos a tratar en este componente:
     
     figure.mb-5
       .video
