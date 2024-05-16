@@ -144,7 +144,8 @@
       .py-3.py-md-4.mg-top-2(titulo="Cuentas reales y de balance")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-7.mb-3.mb-md-0
-            img(src="@/assets/curso/temas/tema1/img_6.svg").m-auto
+            img.d-none.d-sm-none.d-md-block(src="@/assets/curso/temas/tema1/img_6.svg").m-auto
+            img.d-block.d-md-none(src="@/assets/curso/temas/tema1/img_6B.svg").m-auto
           .col-12.col-md-5.mb-3.mb-md-0
             p.mb-3 Por su parte, las cuentas nominales que integran el estado de resultado integral, se consideran así, porque se cierran cada año al final del período contable, de igual manera al inicio del nuevo periodo, estas cuentas se inician con saldo cero y así sucesivamente durante la totalidad de los períodos en que opere la compañía. En este grupo encontramos los ingresos, los costos y los gastos.
             .jumbotron-1.p-4
@@ -153,12 +154,14 @@
       .py-3.py-md-4.mg-top-2(titulo="Estado de Resultado Integral")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-12.mb-3.mb-md-0
-            img.mt-3(src="@/assets/curso/temas/tema1/img_7.svg").m-auto
+            img.d-none.d-sm-none.d-md-block(src="@/assets/curso/temas/tema1/img_7.svg").m-auto
+            img.d-block.d-md-none(src="@/assets/curso/temas/tema1/img_7B.svg").m-auto
         
       .py-3.py-md-4.mg-top-2(titulo="Otros Resultados Integrales")
         .row.justify-content-center.align-items-center.p-4
             .col-12.col-md-8.mb-3.mb-md-0
-              img.mt-3(src="@/assets/curso/temas/tema1/img_8.svg").m-auto
+              img.d-none.d-sm-none.d-md-block(src="@/assets/curso/temas/tema1/img_8.svg").m-auto
+              img.d-block.d-md-none(src="@/assets/curso/temas/tema1/img_8B.svg").m-auto
             .col-12.col-md-4.mb-3.mb-md-0
               .jumbotron-1.p-4
                 p.mb-0 Inversiones en asociada (en asociada, es una entidad donde el inversor posee influencia significativa).
@@ -180,7 +183,7 @@
     //-       .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
     //-         p.mb-0 Los Principios de Contabilidad Generalmente Aceptados en Colombia PCGA, corresponden a las instrucciones que se dictan en la materia contable, para cuantificar e informar todo lo relacionado con la información financiera de las personas naturales o jurídicas, obligadas a llevar la contabilidad. En otras palabras, se puede decir que son las leyes o reglas establecidas para que se lleve la contabilidad por parte de las empresas. A continuación, se compila los principios de contabilidad establecidos para Colombia, de conformidad con las Normas Internacionales de Información Financiera NIIF, a continuación, se presenta la figura 2:
 
-    .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
+    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-star.px-5.py-4
           .col-12.col-md-2.mb-3.mb-md-0
@@ -284,7 +287,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/ico_15.svg', alt='', style="width:100px; display:block; margin:auto 0 ;")
         h4.text-center Las amortizaciones
-        p Como primera medida dejemos en claro, que las amortizaciones se aplican a las cuentas del activo intangible y diferido. Ahora bien, podemos definir las amortizaciones, como la forma de dividir un gasto que realiza hoy la empresa, pero del cual se va a beneficiar en el futuro. Por ejemplo, si una empresa compra y paga un <i>software</i> contable, el año uno, pero su cobertura de servicio se establece para tres años, el gasto se llevaría gradualmente al estado de resultado durante los 36 meses y no en un solo momento.
+        p EN primer lugar, se deja claro que las amortizaciones se aplican a las cuentas del activo intangible y diferido. Ahora bien, podemos definir las amortizaciones, como la forma de dividir un gasto que realiza hoy la empresa, pero del cual se va a beneficiar en el futuro. Por ejemplo, si una empresa compra y paga un <i>software</i> contable, el año uno, pero su cobertura de servicio se establece para tres años, el gasto se llevaría gradualmente al estado de resultado durante los 36 meses y no en un solo momento.
 
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
@@ -300,7 +303,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/ico_17.svg', alt='', style="width:100px; display:block; margin:auto 0 ;")
         h4.text-center El deterioro
-        p Este se aplica en la información financiera de las organizaciones sobre la cuenta cartera y corresponde a la pérdida del valor de las ventas a crédito, en virtud, a que los clientes no las pagaron en los plazos acordados, o que definitivamente no las paguen. Desde el punto de vista fiscal y contable, las empresas deben estimar unos porcentajes de la cartera para llevarse a la cuenta deterioro, a manera de estimación para proteger a la compañía de un impacto más fuerte, financieramente hablando.
+        p Este se aplica en la información financiera de las organizaciones sobre la cuenta cartera y corresponde a la pérdida del valor de las ventas a crédito, en virtud, a que los clientes no las pagaron en los plazos acordados, o que definitivamente no las paguen. Desde el punto de vista fiscal y contable, las empresas deben estimar unos porcentajes de la cartera para llevarse a la cuenta deterioro, a manera de estimación para proteger a la compañía de un impacto más fuerte, que afecta financieramente su liquidez.
     
     Separador 
 

@@ -82,13 +82,14 @@
     p.mb-5 También es importante conocer la trazabilidad de los compromisos estatales, fechas establecidas para declarar, formas de pago, sanciones a las cuales se pueden enfrentar al incumplir estas responsabilidades, alivios tributarios, incentivos o alivios de tipo tributario y demás aspectos que básicamente se compilan en las normatividades ya mencionadas. En Colombia los tributos se clasifican en tres categorías, a continuación, se presenta la figura 3, que clasifica los impuestos:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-md-10.col-lg-10(data-aos="fade-right")
+      .col-10.col-md-10.col-lg-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Clasificación de Tributos en Colombia</em>
+          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Clasificación de tributos en Colombia</em>
         figure
-          img.mb-2(src='@/assets/curso/temas/tema3/fig_1.svg', alt='Esquema que representa cómo funciona el proceso de tributos en Colombia, en el cual hacen presencia los impuestos, las tasas y las contribuciones.')
+          img.d-none.d-sm-none.d-md-block.mb-2(src='@/assets/curso/temas/tema3/fig_1.svg', alt='Esquema que representa cómo funciona el proceso de tributos en Colombia, en el cual hacen presencia los impuestos, las tasas y las contribuciones.')
+          img.d-block.d-md-none.mb-2(src='@/assets/curso/temas/tema3/fig_1B.svg', alt='Esquema que representa cómo funciona el proceso de tributos en Colombia, en el cual hacen presencia los impuestos, las tasas y las contribuciones.')
 
-    p.mb-5 En cuanto a los impuestos, corresponden a recursos que pagan las personas particulares al Estado y por los cuales este contribuyente no recibe ninguna contraprestación expresa (directa). El principal objeto de los impuestos es cubrir los compromisos públicos de inversión, entre otros destinos que se establezcan en el presupuesto general de la nación. Como ejemplos de impuestos se encuentran el impuesto sobre la renta y complementario, el impuesto al valor agregado (IVA), el impuesto predial, el gravamen a los movimientos financieros también conocido como 4 x 1000, entre otros más tanto del orden nacional, como también descentralizados. Ahora bien, estos impuestos se clasifican a su vez en directos e indirectos. A continuación, se detallan las diferencias entre estos, a continuación, se presenta la figura 4 que explica el proceso:
+    p.mb-5 En cuanto a los impuestos, corresponden a recursos que pagan las personas particulares al Estado y por los cuales este contribuyente no recibe ninguna contraprestación expresa (directa). El principal objeto de los impuestos es cubrir los compromisos públicos de inversión, entre otros destinos que se establezcan en el presupuesto general de la nación. Como ejemplos de impuestos se encuentran el impuesto sobre la renta y complementario, el impuesto al valor agregado (IVA), el impuesto predial, el gravamen a los movimientos financieros también conocido como 4 x 1000, entre otros más tanto del orden nacional, como también descentralizados. Ahora bien, estos impuestos se clasifican a su vez en directos e indirectos. A continuación, se presenta la figura 4 que explica el proceso:
 
     //- .row.justify-content-center.align-items-center
     //-   .col-10.col-md-10.col-lg-10(data-aos="fade-right")
@@ -98,7 +99,7 @@
     //-       img.mb-2(src='@/assets/curso/temas/tema3/fig_2.svg', alt='Esquema que explica el proceso de clasificación de los impuestos en Colombia, el cual está compuesto por actores directos e indirectos, con unas especificaciones cada uno.')
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-12
+      .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Clasificación de los Impuestos Colombia</i>
         figure
@@ -110,7 +111,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Registro único tributario
 
-    p.mb-5 Las siglas RUT significan Registro Único Tributario y es el mecanismo utilizado por la Administración de Impuestos y Aduanas Nacionales DIAN, para reconocer, identificar y clasificar las condiciones tributarias particulares de cada persona natural o jurídica y entidades que tengan la calidad de contribuyentes o declarantes de los distintos impuestos nacionales, departamentales y municipales, los responsables y no responsables de IVA, los agentes de retención en la fuente a título de renta, de IVA o de ICA      y todas las demás responsabilidades que en materia tributaria existan y que directamente dan origen a la inscripción en este Registro ante la DIAN.
+    p.mb-5 Las siglas RUT significan Registro Único Tributario y es el mecanismo utilizado por la Administración de Impuestos y Aduanas Nacionales DIAN, para reconocer, identificar y clasificar las condiciones tributarias particulares de cada persona natural o jurídica y entidades que tengan la calidad de contribuyentes o declarantes de los distintos impuestos nacionales, departamentales y municipales, los responsables y no responsables de IVA, los agentes de retención en la fuente a título de renta, de IVA o de ICA y todas las demás responsabilidades que en materia tributaria existan y que directamente dan origen a la inscripción en este Registro ante la DIAN.
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12
@@ -175,14 +176,16 @@
           div(titulo=" Variación tarifa de impuesto de renta personas jurídicas")
             .row.align-items-star.justify-content-center.p-4
               .col-lg-10.col-12
-                img.align(src='@/assets/curso/temas/tema3/fig_4.svg',  alt='')
+                img.d-none.d-sm-none.d-md-block.align(src='@/assets/curso/temas/tema3/fig_4.svg',  alt='')
+                img.d-block.d-md-none.align(src='@/assets/curso/temas/tema3/fig_4B.svg',  alt='')
 
           div(titulo="Impuestos a los dividendos")
             .row.align-items-star.justify-content-center.p-4
               .col-12
                 p.mb-3 Este impuesto grava las utilidades que se perciben por parte de los inversionistas de la sociedad a una tarifa del 10 %, después de las 300 UVT (Unidad de Valor Tributario).
               .col-12.col-lg-10
-                img(src='@/assets/curso/temas/tema3/fig_5.svg')
+                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_5.svg')
+                img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_5B.svg')
 
           div(titulo="Impuestos a las Ganancias Ocasionales")
             .row.align-items-star.justify-content-center.p-4
@@ -192,7 +195,8 @@
                 p.mb-3 Es decir, ingresos que resulten ocasionalmente más no de manera constante tanto para las personas naturales como para las personas jurídicas. Las tarifas son del 10 % y del 20 % según los siguientes criterios:
 
               .col-12.col-lg-10
-                img(src='@/assets/curso/temas/tema3/fig_9.svg')
+                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_9.svg')
+                img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_9B.svg')
 
           div(titulo="Gravamen a los Movimientos Financieros")
             .row.align-items-star.justify-content-center.p-4
@@ -206,7 +210,8 @@
               .col-12
                 p.mb-3 Recordemos que es un impuesto indirecto debido a que se paga implícitamente en la compra de productos o servicios gravados. Encontramos diversas tarifas, de la siguiente manera:
               .col-lg-10.col-12
-                img(src='@/assets/curso/temas/tema3/fig_7.svg')
+                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_7.svg')
+                img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_7B.svg')
 
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Impuestos locales
