@@ -84,7 +84,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Clasificación de tributos en Colombia</em>
+          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Clasificación de Tributos en Colombia</em>
         figure
           img.d-none.d-sm-none.d-md-block.mb-2(src='@/assets/curso/temas/tema3/fig_1.svg', alt='Esquema que representa cómo funciona el proceso de tributos en Colombia, en el cual hacen presencia los impuestos, las tasas y las contribuciones.')
           img.d-block.d-md-none.mb-2(src='@/assets/curso/temas/tema3/fig_1B.svg', alt='Esquema que representa cómo funciona el proceso de tributos en Colombia, en el cual hacen presencia los impuestos, las tasas y las contribuciones.')

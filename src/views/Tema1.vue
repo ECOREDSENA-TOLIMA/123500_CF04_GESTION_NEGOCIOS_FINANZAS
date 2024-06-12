@@ -287,7 +287,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/ico_15.svg', alt='', style="width:100px; display:block; margin:auto 0 ;")
         h4.text-center Las amortizaciones
-        p EN primer lugar, se deja claro que las amortizaciones se aplican a las cuentas del activo intangible y diferido. Ahora bien, podemos definir las amortizaciones, como la forma de dividir un gasto que realiza hoy la empresa, pero del cual se va a beneficiar en el futuro. Por ejemplo, si una empresa compra y paga un <i>software</i> contable, el año uno, pero su cobertura de servicio se establece para tres años, el gasto se llevaría gradualmente al estado de resultado durante los 36 meses y no en un solo momento.
+        p En primer lugar, se deja claro que las amortizaciones se aplican a las cuentas del activo intangible y diferido. Ahora bien, podemos definir las amortizaciones, como la forma de dividir un gasto que realiza hoy la empresa, pero del cual se va a beneficiar en el futuro. Por ejemplo, si una empresa compra y paga un <i>software</i> contable, el año uno, pero su cobertura de servicio se establece para tres años, el gasto se llevaría gradualmente al estado de resultado durante los 36 meses y no en un solo momento.
 
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
@@ -380,7 +380,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12 
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Procesos en la estabilidad de la contabilidad financiera</i>
+          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Importancia de la contabilidad en la estabilidad financiera</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig-2a.svg', alt='Figura que muestra aspectos que se destacan en el procesos en la estabilidad de la contabilidad financiera.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig-2b.svg', alt='Figura que muestra aspectos que se destacan en el procesos en la estabilidad de la contabilidad financiera.') 
