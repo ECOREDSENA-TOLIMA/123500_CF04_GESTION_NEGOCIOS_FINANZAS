@@ -288,29 +288,29 @@ export default {
       autores: [
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesoría metodológico y pedagógico',
+          cargo: 'Asesoría Metodológico y Pedagógico',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Jair Yovanny Castro Morales',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro: 'Centro Agropecuario La Granja - Regional Tolima',
         },
         {
           nombre: 'Gloria Alexandra Orejarena Barrios',
-          cargo: 'Diseño instruccional',
+          cargo: 'Diseño Instruccional',
           centro:
             'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrección de Estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Asesoría metodológica y evaluación instruccional',
+          cargo: 'Asesoría Metodológica y Evaluación Instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -320,48 +320,48 @@ export default {
       autores: [
         {
           nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte organizacional',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          cargo: 'Soporte Organizacional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadro',
-          cargo: 'Diseño web',
+          cargo: 'Diseño Web',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Gustavo Adolfo Marún Suárez',
-          cargo: 'Desarrollo front-end',
+          cargo: 'Desarrollo Front-End',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Diseño web',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          cargo: 'Diseño Web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollo Fullstack',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -369,14 +369,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación y vinculación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          cargo: 'Validación y Vinculación de Recursos Educativos Digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },

@@ -171,18 +171,8 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Principios de contabilidad
 
-    p.mb-4 Los Principios de Contabilidad Generalmente Aceptados en Colombia PCGA, corresponden a las instrucciones que se dictan en la materia contable, para cuantificar e informar todo lo relacionado con la información financiera de las personas naturales o jurídicas, obligadas a llevar la contabilidad. En otras palabras, se puede decir que son las leyes o reglas establecidas para que se lleve la contabilidad por parte de las empresas. A continuación, se compila los principios de contabilidad establecidos para Colombia, de conformidad con las Normas Internacionales de Información Financiera NIIF. 
-    //- , a continuación, se presenta la figura 2:
-
-    //- .row.justify-content-center.align-items-center
-    //-   .col-lg-12
-    //-     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-    //-       .bloque-texto-g__img(data-aos="fade-right")(
-    //-         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-6.png')})`}"
-    //-       )
-    //-       .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
-    //-         p.mb-0 Los Principios de Contabilidad Generalmente Aceptados en Colombia PCGA, corresponden a las instrucciones que se dictan en la materia contable, para cuantificar e informar todo lo relacionado con la información financiera de las personas naturales o jurídicas, obligadas a llevar la contabilidad. En otras palabras, se puede decir que son las leyes o reglas establecidas para que se lleve la contabilidad por parte de las empresas. A continuación, se compila los principios de contabilidad establecidos para Colombia, de conformidad con las Normas Internacionales de Información Financiera NIIF, a continuación, se presenta la figura 2:
-
+    p.mb-4 Los Principios de Contabilidad Generalmente Aceptados en Colombia PCGA, corresponden a las instrucciones que se dictan en la materia contable, para cuantificar e informar todo lo relacionado con la información financiera de las personas naturales o jurídicas, obligadas a llevar la contabilidad. En otras palabras, se puede decir que son las leyes o reglas establecidas para que se lleve la contabilidad por parte de las empresas. A continuación, se compila los principios de contabilidad establecidos para Colombia, de conformidad con las Normas Internacionales de Información Financiera NIIF: 
+   
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-star.px-5.py-4
