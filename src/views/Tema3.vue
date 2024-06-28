@@ -25,7 +25,7 @@
             figure
               img(src="@/assets/curso/temas/tema3/ico_1.svg", alt='', style="width:120px; display:block; margin:auto 0 ;").mb-3
           .col-md-7
-            p Para los contribuyentes obligados a tributar en Colombia, sean estos personas naturales o personas jurídicas, actualmente las normas que rigen en materia tributaria en el orden nacional, se encuentra el estatuto tributario, considerada la biblia en materia de impuestos
+            p Para los contribuyentes obligados a tributar en Colombia, sean estos personas naturales o personas jurídicas, actualmente las normas que rigen en materia tributaria en el orden nacional, se encuentra el estatuto tributario, considerada la biblia en materia de impuestos.
 
         .row.justify-content-center.align-items-star(titulo="Paso 2")
           .col-6.col-lg-2.mb-4.mb-lg-0
@@ -39,7 +39,7 @@
             figure
               img(src="@/assets/curso/temas/tema3/ico_3.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
           .col-md-7
-            p En este mismo sentido existen impuestos del orden municipal que para cada uno de ellos existe un estatuto tributario los cuales establecen los tributos en cada caso, y que es responsabilidad de cada contribuyente, documentar sobre los tributos a que se haría responsable si eventualmente decidiera realizar alguna actividad económica en una región especÍfica. 
+            p En este mismo sentido existen impuestos del orden municipal que para cada uno de ellos existe un estatuto tributario los cuales establecen los tributos en cada caso, y que es responsabilidad de cada contribuyente, documentar sobre los tributos a que se haría responsable si eventualmente decidiera realizar alguna actividad económica en una región específica. 
         
         .row.justify-content-center.align-items-star(titulo="Paso 4")
           .col-6.col-lg-2.mb-4.mb-lg-0
@@ -118,11 +118,11 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Función del RUT ante la DIAN</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig-6a.svg', alt='Esquema que relaciona las funciones presentes en el RUT, explicando qués es, para qué sirve y qué procesos se llevan a cabo ante la DIAN.')  
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig-6b.svg', alt='Esquema que relaciona las funciones presentes en el RUT, explicando qués es, para qué sirve y qué procesos se llevan a cabo ante la DIAN.') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig-6a.svg', alt='Esquema que relaciona las funciones presentes en el RUT, explicando qué es, para qué sirve y qué procesos se llevan a cabo ante la DIAN.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig-6b.svg', alt='Esquema que relaciona las funciones presentes en el RUT, explicando qué es, para qué sirve y qué procesos se llevan a cabo ante la DIAN.') 
 
 
-    p.mb-5 El artículo 555-2 del Estatuto Tributario en su PARÁGRAFO 2o. dice: “La inscripción en el Registro Único Tributario, RUT, deberá cumplirse en forma previa al inicio de la actividad económica ante las oficinas competentes de la DIAN, de las cámaras de comercio o de las demás entidades que sean facultadas para el efecto”. A continuación, se relacionan quiénes están obligados a realizar este trámite:
+    p.mb-5 El artículo 555-2 del Estatuto Tributario, en su PARÁGRAFO 2o. dice: “La inscripción en el Registro Único Tributario, RUT, deberá cumplirse en forma previa al inicio de la actividad económica ante las oficinas competentes de la DIAN, de las cámaras de comercio o de las demás entidades que sean facultadas para el efecto”. A continuación, se relacionan quiénes están obligados a realizar este trámite:
 
     figure.mb-5
       .video
@@ -153,7 +153,7 @@
           div(titulo="Renta")
             .row.align-items-star.justify-content-center.p-4
               .col-12
-                p.mb-3 Básicamente este impuesto grava las utilidades de las actividades ordinarias realizadas por el contribuyente según el tipo.
+                p.mb-3 Básicamente, este impuesto grava las utilidades de las actividades ordinarias realizadas por el contribuyente según el tipo.
               .col-12 
                 .tabla-a.color-acento-contenido.mb-5 
                   table
@@ -163,10 +163,10 @@
                         th.th Persona Natural
                     tbody
                       tr
-                        td.th-1  Para las personas jurídicas la tarifa para el año 2022 será del 35 %.
-                        td.th-1  Para el caso de las personas naturales la tarifa es progresiva, es decir, que entre más alta la renta líquida gravable del contribuyente, mayor será el impuesto a cargo, y viceversa.
+                        td.th-1  Para las personas jurídicas, la tarifa para el año 2022 será del 35 %.
+                        td.th-1  Para el caso de las personas naturales, la tarifa es progresiva, es decir, que entre más alta la renta líquida gravable del contribuyente, mayor será el impuesto a cargo, y viceversa.
                       tr 
-                        td.th-2 Sin embargo se debe tener en cuenta que la tarifa puede cambiar año a año de conformidad con lo que se puede regular por parte del estado (reformas tributarias).
+                        td.th-2 Sin embargo, se debe tener en cuenta que la tarifa puede cambiar año a año de conformidad con lo que se puede regular por parte del estado (reformas tributarias).
                         td.th-2 La más reciente reforma tributaria del año 2021 no modificó las tarifas de renta aplicables a las personas naturales.
                       tr 
                         td.th-1   
@@ -176,27 +176,25 @@
           div(titulo=" Variación tarifa de impuesto de renta personas jurídicas")
             .row.align-items-star.justify-content-center.p-4
               .col-lg-10.col-12
-                img.d-none.d-sm-none.d-md-block.align(src='@/assets/curso/temas/tema3/fig_4.svg',  alt='')
-                img.d-block.d-md-none.align(src='@/assets/curso/temas/tema3/fig_4B.svg',  alt='')
+                img.d-none.d-sm-none.d-md-block.align(src='@/assets/curso/temas/tema3/fig_4.svg',  alt='Imagen que contiene un esquema que hace mención de la tarifa impuesto de renta de personas jurídicas, destacando los porcentajes de los años 2020 al 2022.')
+                img.d-block.d-md-none.align(src='@/assets/curso/temas/tema3/fig_4B.svg',  alt='Imagen que contiene un esquema que hace mención de la tarifa impuesto de renta de personas jurídicas, destacando los porcentajes de los años 2020 al 2022.')
 
           div(titulo="Impuestos a los dividendos")
             .row.align-items-star.justify-content-center.p-4
               .col-12
                 p.mb-3 Este impuesto grava las utilidades que se perciben por parte de los inversionistas de la sociedad a una tarifa del 10 %, después de las 300 UVT (Unidad de Valor Tributario).
               .col-12.col-lg-10
-                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_5.svg')
-                img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_5B.svg')
+                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_5.svg' alt="Imagen que contiene un esquema que hace mención del impuesto a los dividendos, destacando las tarifas que van de 0 a 300 UVT y de 300 UVT en adelante.")
+                img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_5B.svg' alt="Imagen que contiene un esquema que hace mención del impuesto a los dividendos, destacando las tarifas que van de 0 a 300 UVT y de 300 UVT en adelante.")
 
           div(titulo="Impuestos a las Ganancias Ocasionales")
             .row.align-items-star.justify-content-center.p-4
               .col-12
                 p.mb-3 Corresponden a las ganancias provenientes de actividades no contempladas en las operaciones ordinarias de las empresas.
-                
                 p.mb-3 Es decir, ingresos que resulten ocasionalmente más no de manera constante tanto para las personas naturales como para las personas jurídicas. Las tarifas son del 10 % y del 20 % según los siguientes criterios:
-
               .col-12.col-lg-10
-                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_9.svg')
-                img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_9B.svg')
+                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_9.svg' alt="Imagen que contiene un esquema que hace mención a los impuestos de ganancias ocasionales, destacando los porcentajes de las personas naturales y jurídicas, así como de las rifas, apuestas y similares.")
+                img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_9B.svg' alt="Imagen que contiene un esquema que hace mención a los impuestos de ganancias ocasionales, destacando los porcentajes de las personas naturales y jurídicas, así como de las rifas, apuestas y similares.")
 
           div(titulo="Gravamen a los Movimientos Financieros")
             .row.align-items-star.justify-content-center.p-4
@@ -210,8 +208,8 @@
               .col-12
                 p.mb-3 Recordemos que es un impuesto indirecto debido a que se paga implícitamente en la compra de productos o servicios gravados. Encontramos diversas tarifas, de la siguiente manera:
               .col-lg-10.col-12
-                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_7.svg')
-                img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_7B.svg')
+                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_7.svg' alt="Imagen que contiene un esquema que hace mención al Impuesto al Valor Agregado, más conocido como IVA, destacando las tarifas del IVA para productos y servicios, así como los que están exentos.")
+                img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_7B.svg' lat="Imagen que contiene un esquema que hace mención al Impuesto al Valor Agregado, más conocido como IVA, destacando las tarifas del IVA para productos y servicios, así como los que están exentos.")
 
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Impuestos locales

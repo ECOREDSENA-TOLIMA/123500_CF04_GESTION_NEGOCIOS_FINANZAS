@@ -29,7 +29,7 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12.col-lg-10
-        p.mb-0 Estos registros se deben realizar en los momentos en que se presenten; es decir, en orden cronológico y siguiendo a las regulaciones establecidas por el gobierno nacional, para el caso de Colombia el marco normativo establecido se estipula en el decreto único reglamentario 1625 de 2016 y las Normas Internacionales de Información Financiera. La contabilidad llevada en debida forma es una herramienta clave en pro de obtener mejores resultados financieros y mejoras en la gestión de los administradores.
+        p.mb-0 Estos registros se deben realizar en los momentos en que se presenten; es decir, en orden cronológico y siguiendo las regulaciones establecidas por el gobierno nacional, para el caso de Colombia el marco normativo establecido se estipula en el decreto único reglamentario 1625 de 2016 y las Normas Internacionales de Información Financiera. La contabilidad llevada en debida forma es una herramienta clave en pro de obtener mejores resultados financieros y mejoras en la gestión de los administradores.
 
     Separador 
 
@@ -54,7 +54,7 @@
             p.mb-0 <strong>Nombre:</strong> corresponde al nombre asignado a la cuenta contable que se utiliza para cada registro.
           li(data-aos="fade-right") 
             i.fas.fa-folder.ss
-            p.mb-0 <strong>Detalle:</strong> hace referencia a la clase de movimiento que se registra para cada transacción, este puede ser débito o crédito según cada caso. Para el caso de los débitos, se registran al lado izquierdo de la cuenta y principalmente en este se contemplan lo que ingresa a la organización; por su parte los movimientos créditos se registran al lado derecho de la cuenta y en este se consideran los movimientos de salida de las empresas para cada situación.
+            p.mb-0 <strong>Detalle:</strong> hace referencia a la clase de movimiento que se registra para cada transacción, este puede ser débito o crédito según cada caso. Para el caso de los débitos, se registran al lado izquierdo de la cuenta y principalmente en este se contempla lo que ingresa a la organización; por su parte los movimientos créditos se registran al lado derecho de la cuenta y en este se consideran los movimientos de salida de las empresas para cada situación.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
             p.mb-0 <strong>Saldo:</strong> este corresponde al neto que resulte entre los movimientos débitos y los movimientos créditos del negocio.
@@ -66,9 +66,9 @@
       //- .col-lg-5(data-aos="fade-left") 
       //-   img.mt-3(src='@/assets/curso/temas/tema1/img-5.svg')
       .col-12.col-lg-10(data-aos="fade-right") 
-        p.mb-2 Cuando se habla de la naturaleza de las cuentas contables, se considera la forma habitual en que se incrementa el saldo de esta según su clase y tipo de cuenta, es decir, las cuentas de naturaleza débito siempre aumentan por la columna izquierda y disminuye por el lado derecho de esta, de tal forma que al neto de estos movimientos finalmente debe preservar un mayor valor por el lado izquierdo. Tales cuentas son los activos, los gastos, los costos (de venta, de producción o de operación) y si se manejaran las cuentas de orden acreedoras en la contabilidad de las empresas. Por su parte, las cuentas de naturaleza crédito, aumentan siempre por la columna derecha y disminuyen por el lado izquierdo, conservando siempre un mayor valor en el costado derecho, en este grupo encontramos, los pasivos, las cuentas de capital o patrimonio y dado el caso las cuentas de orden deudoras.
+        p.mb-2 Cuando se habla de la naturaleza de las cuentas contables, se considera la forma habitual en que se incrementa el saldo de esta según su clase y tipo de cuenta, es decir, las cuentas de naturaleza débito siempre aumentan por la columna izquierda y disminuyen por el lado derecho de esta, de tal forma que al neto de estos movimientos finalmente debe preservar un mayor valor por el lado izquierdo. Tales cuentas son los activos, los gastos, los costos (de venta, de producción o de operación) y si se manejaran las cuentas de orden acreedoras en la contabilidad de las empresas. Por su parte, las cuentas de naturaleza crédito, aumentan siempre por la columna derecha y disminuyen por el lado izquierdo, conservando siempre un mayor valor en el costado derecho, en este grupo encontramos, los pasivos, las cuentas de capital o patrimonio y dado el caso las cuentas de orden deudoras.
 
-        p.mb-0 Un ejemplo muy sencillo de cuentas de naturaleza debito es el siguiente:
+        p.mb-0 Un ejemplo muy sencillo de cuentas de naturaleza débito es el siguiente:
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5
     
@@ -144,24 +144,24 @@
       .py-3.py-md-4.mg-top-2(titulo="Cuentas reales y de balance")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-7.mb-3.mb-md-0
-            img.d-none.d-sm-none.d-md-block(src="@/assets/curso/temas/tema1/img_6.svg").m-auto
-            img.d-block.d-md-none(src="@/assets/curso/temas/tema1/img_6B.svg").m-auto
+            img.d-none.d-sm-none.d-md-block(src="@/assets/curso/temas/tema1/img_6.svg" alt="Esquema que relaciona los aspectos presentes en las cuentas reales y de balance, los cuales son el activo, el pasivo y el patrimonio.").m-auto
+            img.d-block.d-md-none(src="@/assets/curso/temas/tema1/img_6B.svg" alt="Esquema que relaciona los aspectos presentes en las cuentas reales y de balance, los cuales son el activo, el pasivo y el patrimonio.").m-auto
           .col-12.col-md-5.mb-3.mb-md-0
             p.mb-3 Por su parte, las cuentas nominales que integran el estado de resultado integral, se consideran así, porque se cierran cada año al final del período contable, de igual manera al inicio del nuevo periodo, estas cuentas se inician con saldo cero y así sucesivamente durante la totalidad de los períodos en que opere la compañía. En este grupo encontramos los ingresos, los costos y los gastos.
             .jumbotron-1.p-4
-              p.mb-0 Finalmente están los Otros Resultados Integrales - ORI, que representan las utilidades o perdidas que no se reconocen por parte de la administración en el ejercicio contable de la organización. 
+              p.mb-0 Finalmente están los Otros Resultados Integrales - ORI, que representan las utilidades o pérdidas que no se reconocen por parte de la administración en el ejercicio contable de la organización. 
 
       .py-3.py-md-4.mg-top-2(titulo="Estado de Resultado Integral")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-12.mb-3.mb-md-0
-            img.d-none.d-sm-none.d-md-block(src="@/assets/curso/temas/tema1/img_7.svg").m-auto
-            img.d-block.d-md-none(src="@/assets/curso/temas/tema1/img_7B.svg").m-auto
+            img.d-none.d-sm-none.d-md-block(src="@/assets/curso/temas/tema1/img_7.svg" alt="Esquema que relaciona los aspectos presentes en el estado de resultado integral, los cuales son los ingresos, los costos y los gastos.").m-auto
+            img.d-block.d-md-none(src="@/assets/curso/temas/tema1/img_7B.svg" alt="Esquema que relaciona los aspectos presentes en el estado de resultado integral, los cuales son los ingresos, los costos y los gastos.").m-auto
         
       .py-3.py-md-4.mg-top-2(titulo="Otros Resultados Integrales")
         .row.justify-content-center.align-items-center.p-4
             .col-12.col-md-8.mb-3.mb-md-0
-              img.d-none.d-sm-none.d-md-block(src="@/assets/curso/temas/tema1/img_8.svg").m-auto
-              img.d-block.d-md-none(src="@/assets/curso/temas/tema1/img_8B.svg").m-auto
+              img.d-none.d-sm-none.d-md-block(src="@/assets/curso/temas/tema1/img_8.svg" alt="Esquema que relaciona los aspectos presentes en el Otro Resultado Integral, más conocido como ORI, los cuales son la revelación en propiedades, planta y equipo, los instrumentos financieros reconocidos, además de las inversiones realizadas en el extranjero.").m-auto
+              img.d-block.d-md-none(src="@/assets/curso/temas/tema1/img_8B.svg" alt="Esquema que relaciona los aspectos presentes en el Otro Resultado Integral, más conocido como ORI, los cuales son la revelación en propiedades, planta y equipo, los instrumentos financieros reconocidos, además de las inversiones realizadas en el extranjero.").m-auto
             .col-12.col-md-4.mb-3.mb-md-0
               .jumbotron-1.p-4
                 p.mb-0 Inversiones en asociada (en asociada, es una entidad donde el inversor posee influencia significativa).
@@ -237,7 +237,7 @@
           .col-12.col-md-2.mb-3.mb-md-0
             img(src="@/assets/curso/temas/tema1/ico_12.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-12.col-md-10.mb-3.mb-md-0
-            p.mt-3 <b>Prudencia:</b> este principio aplica en los casos en que se debe reconocer un hecho económico, pero no se puede medir con fiabilidad. Para dar una solución al tema, lo más conveniente es determinar un mecanismo que permita encontrar un valor razonable de conformidad a la realidad económica del mercado.
+            p.mt-3 <b>Prudencia:</b> este principio aplica en los casos en que se debe reconocer un hecho económico, pero no se puede medir con fiabilidad. Para dar una solución al tema, lo más conveniente es determinar un mecanismo que permita encontrar un valor razonable, de conformidad a la realidad económica del mercado.
 
         .row.justify-content-center.align-items-center.px-5.py-4
           .col-12.col-md-2.mb-3.mb-md-0
@@ -372,8 +372,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Importancia de la contabilidad en la estabilidad financiera</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig-2a.svg', alt='Figura que muestra aspectos que se destacan en el procesos en la estabilidad de la contabilidad financiera.')  
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig-2b.svg', alt='Figura que muestra aspectos que se destacan en el procesos en la estabilidad de la contabilidad financiera.') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig-2a.svg', alt='Figura que muestra aspectos que se destacan en el proceso de la estabilidad de la contabilidad financiera.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig-2b.svg', alt='Figura que muestra aspectos que se destacan en el proceso de la estabilidad de la contabilidad financiera.') 
 
 
     p.mb-5 En las empresas se encuentra una variedad de documentos contables de acuerdo a sus necesidades, sin embargo, se puede definir algunos de estos que son considerados los más comunes o habituales en las organizaciones:
@@ -584,7 +584,7 @@
               .col-lg-4
                 img(src='@/assets/curso/temas/tema1/img_17.png')
               .col-lg-8
-                p.mb-3 En ese momento la intención del legislador, era simplificar la búsqueda de las consideraciones que en materia de impuestos existían, pues existían múltiples normas que regulaban la materia, y podría generar confusión para los contribuyentes.
+                p.mb-3 En ese momento, la intención del legislador, era simplificar la búsqueda de las consideraciones que en materia de impuestos existían, pues existían múltiples normas que regulaban la materia, y podrían generar confusión para los contribuyentes.
                 p.mb-0 Ahora bien, recientemente se expidieron otras normativas en materia contable que tratan temas relacionados con el marco técnico de los grupos que deben aplicar los estándares internacionales de información financiera. 
 
           div(titulo="El decreto 938 de 2021")

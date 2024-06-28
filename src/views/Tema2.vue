@@ -26,7 +26,7 @@
             .col-lg-12
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Los informes más frecuentes que se deben presentar son los solicitados por los organismos de control, entre ellos se tienen, la Dirección de Impuestos y Aduanas Nacionales (DIAN), las superintendencias que tengan competencia sobre cada sector empresarial, las demás entidades gubernamentales que ejercen supervisión a las entidades públicas o privadas, tales como, la Contraloría General de la República, las distintas Contraloría del orden nacional o regional, la Procuraduría General de la Nación, las personerías, defensorías del pueblo, entre otras.
+                  p.mb-0 Los informes más frecuentes que se deben presentar son los solicitados por los organismos de control, entre ellos se tienen, la Dirección de Impuestos y Aduanas Nacionales (DIAN), las superintendencias que tengan competencia sobre cada sector empresarial, las demás entidades gubernamentales que ejercen supervisión a las entidades públicas o privadas, tales como, la Contraloría General de la República, las distintas Contralorías del orden nacional o regional, la Procuraduría General de la Nación, las personerías, defensorías del pueblo, entre otras.
 
     Separador 
 
@@ -77,31 +77,31 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-up")
           div(titulo="Actividades de operación")
             .row.align-items-star.justify-content-center.p-4
-              .col-lg-8
-                .jumbotron-2.py-5.px-5.pb-md-2.mb-2
+              .col-lg-8.col-12
+                .jumbotron-2.py-5.px-3.px-md-5.pb-md-2.mb-2
                   p.mb-5.text-start Como su nombre lo indica, estas actividades hacen referencia a todas las relacionadas con el desarrollo del objeto social de la compañía; es decir, la producción para empresas productoras, las actividades relacionadas con la prestación de servicios, y las de comercialización de productos, según el caso.
-                .jumbotron-3.py-5.px-5.pb-md-2.mb-2
-                  p.mb-5.text-start Dentro de las consideraciones más frecuentes, tenemos la compra y venta de productos o servicios, los pagos realizados por conceptos de nómina, arrendamientos, entre otros. Aquí también se incluyen las cuentas del estado de situación financiera como son los inventarios, cartera, pasivos por impuestos, entre otros.
+                .jumbotron-3.py-5.px-3.px-md-5.pb-md-2.mb-2
+                  p.mb-5.text-start Dentro de las consideraciones más frecuentes, tenemos la compra y venta de productos o servicios, los pagos realizados por conceptos de nómina, arrendamientos, entre otros. Aquí también se incluyen las cuentas del estado de situación financiera, como son los inventarios, cartera, pasivos por impuestos, entre otros.
 
               .col-lg-4
                 img(src='@/assets/curso/temas/tema2/img_3.svg')
                 
           div(titulo="Actividades de inversión")
             .row.align-items-star.justify-content-center.p-4
-              .col-lg-8
-                .jumbotron-2.py-5.px-5.pb-md-2.mb-2
+              .col-lg-8.col-12
+                .jumbotron-2.py-5.px-3.px-md-5.pb-md-2.mb-2
                   p.mb-5.text-start A nivel general, las actividades de inversión en las empresas, como su nombre lo indica, corresponden a las inversiones que realizan en activos fijos, o participación en acciones de otras empresas, inversiones en CDT, títulos valores a nivel general. 
-                .jumbotron-3.py-5.px-5.pb-md-2.mb-2
+                .jumbotron-3.py-5.px-3.px-md-5.pb-md-2.mb-2
                   p.mb-5.text-start Como usos o destinación de los recursos, se incluyen las compras que en un periodo determinado realice la compañía, en rubros diferentes a la compra de mercancías para la venta, y demás que tengan relación con la operación, las cuentas más frecuentes en este grupo, son la propiedad planta y equipo, intangibles, entre otros.
               .col-lg-4
                 img(src='@/assets/curso/temas/tema2/img_4.svg')
 
           div(titulo="Actividades de financiación")
             .row.align-items-star.justify-content-center.p-4
-              .col-lg-8
-                .jumbotron-2.py-5.px-5.pb-md-2.mb-2
+              .col-lg-8.col-12
+                .jumbotron-2.py-5.px-3.px-md-5.pb-md-2.mb-2
                   p.mb-5.text-start  A este grupo pertenece todo lo relacionado con adquisición de dineros para ser utilizados por la empresa. Estos dineros pueden surgir de obligaciones con terceros, como por ejemplo de los bancos, como también, de sus propietarios, los cuales figuran directamente en las cuentas de patrimonio de la entidad, según sea el caso.
-                .jumbotron-3.py-5.px-5.pb-md-2.mb-0
+                .jumbotron-3.py-3.py-xxl-5.px-3.px-md-5.pb-md-2.mb-0
                   p.mb-5.text-start.mg-top Es importante tener en cuenta que en el grupo de los pasivos, no se pueden incluir, los pasivos laborales, los impuestos, los acreedores, proveedores, entre otros, pues estos pertenecen al grupo de actividades de operación, de las actividades más frecuentes en este estado de flujos de efectivo, encontramos las nuevas capitalizaciones que se realicen por parte de las acciones o ingresos por venta de acciones para nuevos propietarios de la compañía.
               .col-lg-4
                 img(src='@/assets/curso/temas/tema2/img_5.svg')
@@ -120,7 +120,7 @@
           .row
             .col-lg-7.mb-4.mb-lg-0
               h4.mb-5 Las hojas electrónicas financieras
-              p.mb-0 Se utilizan permanentemente en las empresas por parte de los administradores, para medir la gestión organizacional y de negocios en general. Dentro de los múltiples beneficios de esta herramienta, encontramos por ejemplo que, a falta de <i>software</i> contable, podemos llevar la contabilidad de los negocios o empresas, podemos crear bases de datos, se pueden formular y realizar cálculos aritméticos, se pueden generar reportes gerenciales para juntas directivas, graficas, análisis financieros, análisis estadísticos, entre otras virtudes de esta herramienta ofimática.
+              p.mb-0 Se utilizan permanentemente en las empresas por parte de los administradores, para medir la gestión organizacional y de negocios en general. Dentro de los múltiples beneficios de esta herramienta, encontramos por ejemplo que, a falta de <i>software</i> contable, podemos llevar la contabilidad de los negocios o empresas, podemos crear bases de datos, se pueden formular y realizar cálculos aritméticos, se pueden generar reportes gerenciales para juntas directivas, gráficas, análisis financieros, análisis estadísticos, entre otras virtudes de esta herramienta ofimática.
             .col-lg-5
               figure
                 img(src="@/assets/curso/temas/tema2/img_10.png", style="width: 450px" ,alt='').m-auto
@@ -128,7 +128,7 @@
           .row
             .col-lg-7.mb-4.mb-lg-0
               h4.mb-5 <i>Software</i> contable
-              p.mb-0 Siendo esta ayuda lo suficientemente práctica, con el pasar de los años muy a pesar de los avances tecnológicos y la creación de <i>software</i> muy completos y diseñados inclusos a la medida de las necesidades de las personas naturales y jurídicas, en donde se consideran en detalle los procesos particulares, aun así, este tipo de <i>software</i> no pierde vigencia en las empresas, especialmente porque también se han venido actualizando y complementando, conservando la preferencia de los usuarios.
+              p.mb-0 Siendo esta ayuda lo suficientemente práctica, con el pasar de los años muy a pesar de los avances tecnológicos y la creación de <i>software</i> muy completos y diseñados incluso a la medida de las necesidades de las personas naturales y jurídicas, en donde se consideran en detalle los procesos particulares, aun así, este tipo de <i>software</i> no pierde vigencia en las empresas, especialmente porque también se han venido actualizando y complementando, conservando la preferencia de los usuarios.
             .col-lg-5
               figure
                 img(src="@/assets/curso/temas/tema2/img_11.png", style="width: 450px" ,alt='').m-auto

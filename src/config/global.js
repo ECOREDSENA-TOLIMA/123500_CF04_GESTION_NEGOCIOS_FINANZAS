@@ -183,7 +183,7 @@ export default {
     },
     {
       referencia:
-        'Decreto 410 de 1971. [Presidencia de la República de Colombia] (). Por el cual se expide el Código de Comercio.. Marzo 27 de 1971.',
+        'Decreto 410 de 1971. [Presidencia de la República de Colombia] (). Por el cual se expide el Código de Comercio. Marzo 27 de 1971.',
       link: 'https://leyes.co/codigo_de_comercio/19.htm',
     },
     {
@@ -228,7 +228,7 @@ export default {
     {
       termino: 'RUT',
       significado:
-        'Quiere decir registro único tributario, y se convierte en el documento de identificación de los contribuyentes',
+        'Quiere decir registro único tributario, y se convierte en el documento de identificación de los contribuyentes.',
     },
     {
       termino: 'Tributo',
@@ -273,13 +273,13 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -288,30 +288,35 @@ export default {
       autores: [
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesoría Metodológico y Pedagógico',
+          cargo: 'Asesor Metodológico y Pedagógico',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Jair Yovanny Castro Morales',
           cargo: 'Experto Temático',
-          centro: 'Centro Agropecuario La Granja - Regional Tolima',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
         {
           nombre: 'Gloria Alexandra Orejarena Barrios',
-          cargo: 'Diseño Instruccional',
+          cargo: 'Diseñadora Instruccional',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
-        },
-        {
-          nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Corrección de Estilo',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Asesoría Metodológica y Evaluación Instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Corrector de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador Instruccional ',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -322,46 +327,46 @@ export default {
           nombre: 'Francisco José Lizcano Reyes',
           cargo: 'Responsable del Equipo',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte Organizacional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Profesional de Soporte Organizacional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadro',
-          cargo: 'Diseño Web',
+          cargo: 'Diseñador Web',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Gustavo Adolfo Marún Suárez',
-          cargo: 'Desarrollo Front-End',
+          cargo: 'Desarrollador Front-End',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Producción Audiovisual',
+          cargo: 'Productor Audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Producción Audiovisual',
+          cargo: 'Productor Audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Diseño Web',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Diseñadora Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oscar Daniel Espitia Marin',
-          cargo: 'Desarrollo Fullstack',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Desarrollador Fullstack',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -370,13 +375,14 @@ export default {
       autores: [
         {
           nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Validadora de Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación y Vinculación de Recursos Educativos Digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo:
+            'Vinculador y Validador de Recursos Educativos en la Plataforma LMS ',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
