@@ -208,7 +208,7 @@
               .col-12
                 p.mb-3 Recordemos que es un impuesto indirecto debido a que se paga implícitamente en la compra de productos o servicios gravados. Encontramos diversas tarifas, de la siguiente manera:
               .col-lg-10.col-12
-                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_7.svg' alt="Imagen que contiene un esquema que hace mención al Impuesto al Valor Agregado, más conocido como IVA, destacando las tarifas del IVA para productos y servicios, así como los que están exentos.")
+                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_7.svg' alt="Imagen que contiene un esquema que hace mención al Impuesto del Valor Agregado, más conocido como IVA, destacando las tarifas del IVA para productos y servicios, así como los que están exentos.")
                 img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_7B.svg' lat="Imagen que contiene un esquema que hace mención al Impuesto al Valor Agregado, más conocido como IVA, destacando las tarifas del IVA para productos y servicios, así como los que están exentos.")
 
     .h4.mb-4(data-aos="zoom-down-right")
